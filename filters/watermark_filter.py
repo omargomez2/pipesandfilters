@@ -5,10 +5,10 @@
 #---------------------------------
 from PIL import Image, ImageDraw, ImageFont
 
-def watermark(img, texto, tamanio_fuente):
+def watermark(img, txt, txt_size):
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("arial.ttf", tamanio_fuente)
-    draw.text((5, 5), texto, fill=(255, 255, 255), font=font)
+    font = ImageFont.truetype("arial.ttf", txt_size)
+    draw.text((5, 5), txt, fill=(255, 255, 255), font=font)
     return img
 
 
