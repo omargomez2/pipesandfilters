@@ -1,6 +1,6 @@
 #---------------------------------
 # Author: Omar S. Gómez
-# Date: February 2024
+# Date: March 2024
 # Description: Software filter that add a watermark text over an image
 #---------------------------------
 from PIL import Image, ImageDraw, ImageFont
