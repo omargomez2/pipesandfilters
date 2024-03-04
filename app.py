@@ -1,6 +1,6 @@
 #---------------------------------
 # Author: Omar S. Gómez
-# Date: February 2024
+# Date: March 2024
 # Description: Example of a pipes and filter software architecture style responsible for apply different
 #              image transformations through different filters, such as: brightness, contrast, saturation,
 #              negative, flip and watermark text. 
